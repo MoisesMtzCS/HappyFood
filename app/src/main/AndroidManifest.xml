@@ -3,23 +3,28 @@
     package="cs.med.mtz.moises.happyfood">
 
     <application
+        android:name=".HappyFoodApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HappyFood">
-        <activity android:name=".MainActivity" />
+        <activity android:name=".presentation.login.LoginActivity"></activity>
+        <activity android:name=".presentation.main.MainActivity" />
         <activity
-            android:name=".splashScreen.SplashScreen"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-
+            android:name=".presentation.splash_screen.SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".presentation.app_intro.AppIntroActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".presentation.check_in.CheckInActivity" />
     </application>
 
 </manifest>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Happy food</string>
+    <string name="Error">error</string>
 </resources>

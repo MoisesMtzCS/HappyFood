@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".splashScreen.SplashScreen">
+    tools:context=".presentation.splash_screen.SplashActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginHorizontal="50dp"
-        android:src="@drawable/ic_marijuana" />
+        android:layout_marginHorizontal="@dimen/splash_horizontal_margin"
+        android:src="@drawable/ic_acuerdo"
+        android:contentDescription="@null" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
