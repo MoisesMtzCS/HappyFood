@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">Happy food</string>
-    <string name="Error">error</string>
+    <string name="error">Error</string>
+    <string name="correo">Correo</string>
+    <string name="nombre">Nombre</string>
+    <string name="contrasena">Contrasena</string>
+    <string name="registrar">Registrar</string>
+    <string name="ya_tengo_una_cuenta">Ya tengo una cuenta</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="login_label">ya tienes una cuenta? iniciar sesión</string>
+    <string name="sign_up_user_collision_exception">Correo electronico ya registrado</string>
+    <string name="sign_up_invalid_credentials_exception">No es posible crear un usuario con los datos proporcionados</string>
+    <string name="sign_up_no_wifi_exeption">Sin internet</string>
+    <string name="sign_up_weak_password_exeption">Contraseña debil</string>
+    <string name="sign_up_default_error">Se ha producido un error auntenticando al usuario</string>
+    <string name="sign_up_email_or_pasword_is_empty">Datos vacios, no es posible crear un usuario con los datos proporcionados</string>
+    <string name="login_email_or_pasword_is_empty">Datos vacios, no es posible iniciar sesion con los datos proporcionados</string>
+    <string name="login_invalid_credentials_exception">No es posible iniciar sesion con los datos proporcionados</string>
+    <string name="login_no_wifi_exeption">Sin internet</string>
+    <string name="login_user_not_registered_exeption">Usuario no registrado</string>
+    <string name="login_user_invalid_pasword_exception">Contraseña incorrecta</string>
+    <string name="welcome_intro">Bienvenido</string>
+    <string name="description_intro">Esta es tu tienda de bocadillos</string>
+    <string name="start_intro">¡Empecemos!</string>
+    <string name="instruction_intro">Comencemos creando una cuenta.</string>
 </resources>

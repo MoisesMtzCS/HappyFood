@@ -23,16 +23,16 @@ class AppIntroActivity : AppIntro() {
     private fun startIntro() {
         addSlide(
             AppIntroFragment.newInstance(
-                title = "Bienvenido",
-                description = "Esta es tu tienda de bocadillos",
+                title = getString(R.string.welcome_intro),
+                description = getString(R.string.description_intro),
                 R.drawable.ic_merca,
                 Color.GRAY
             )
         )
         addSlide(
             AppIntroFragment.newInstance(
-                title = "¡Empecemos!",
-                description = "Comencemos creando una cuenta.",
+                title = getString(R.string.start_intro),
+                description = getString(R.string.instruction_intro),
                 R.drawable.ic_marijuana,
                 Color.GRAY
             )
@@ -42,16 +42,16 @@ class AppIntroActivity : AppIntro() {
     override fun onSkipPressed(currentFragment: Fragment?) {
         super.onSkipPressed(currentFragment)
         val intent = Intent(this, CheckInActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
-        finish()
-
     }
 
     override fun onDonePressed(currentFragment: Fragment?) {
         super.onDonePressed(currentFragment)
         val intent = Intent(this, CheckInActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
-        finish()
+
     }
 
 }

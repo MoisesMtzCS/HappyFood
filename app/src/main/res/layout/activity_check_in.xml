@@ -12,6 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_marginVertical="20dp"
+            android:contentDescription="@null"
             android:src="@drawable/ic_registrarcuenta" />
 
 
@@ -25,7 +26,7 @@
                 android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Name"
+                android:hint="@string/nombre"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -39,7 +40,7 @@
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Correo"
+                android:hint="@string/correo"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -54,7 +55,7 @@
                 android:id="@+id/etPasword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Contrasena"
+                android:hint="@string/contrasena"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,15 +65,28 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="10dp"
-            android:text="Registrar" />
+            android:text="@string/registrar" />
+
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/loginButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:text="Iniciar sesion"
+            android:text="@string/ya_tengo_una_cuenta"
             tools:style="@style/AppIntroButtonStyleCompat" />
+
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_label"
+            android:textAlignment="center" />
 
 
     </LinearLayout>

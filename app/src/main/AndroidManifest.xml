@@ -10,7 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HappyFood">
-        <activity android:name=".presentation.login.LoginActivity"></activity>
         <activity android:name=".presentation.main.MainActivity" />
         <activity
             android:name=".presentation.splash_screen.SplashActivity"
@@ -25,6 +24,8 @@
             android:name=".presentation.app_intro.AppIntroActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".presentation.check_in.CheckInActivity" />
+        <activity android:name=".presentation.login.LoginActivity"/>
+
     </application>
 
 </manifest>

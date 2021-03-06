@@ -26,7 +26,7 @@
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Correo"
+                android:hint="@string/correo"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -41,7 +41,7 @@
                 android:id="@+id/etPasword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Contrasena"
+                android:hint="@string/contrasena"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="10dp"
-            android:text="Iniciar sesion" />
+            android:text="@string/iniciar_sesion" />
 
 
     </LinearLayout>
